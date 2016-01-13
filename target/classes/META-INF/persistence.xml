@@ -22,7 +22,7 @@
 				First time you will need it when you create.
 				Because every time it will drop and create the table.
 			 -->
-			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create" />
+			<property name="javax.persistence.schema-generation.database.action" value="none" />
 
 			<!-- hibernate will show you which SQL code is behind a java code -->
 			<property name="hibernate.show_sql" value="false" />
